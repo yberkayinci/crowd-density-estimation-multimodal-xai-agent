@@ -1,0 +1,31 @@
+2026-02-28 01:37:03,155 - INFO - Experiment: csrnet_improved_20260228_013703
+2026-02-28 01:37:03,155 - INFO - Config: {'MODEL_TYPE': 'improved', 'USE_ATTENTION': True, 'USE_BN': False, 'DROPOUT_RATE': 0.0, 'EPOCHS': 200, 'BATCH_SIZE': 1, 'LR': 1e-05, 'OPTIMIZER': 'adam', 'SCHEDULER': 'cosine', 'LOSS_TYPE': 'combined', 'SSIM_WEIGHT': 0.01, 'COUNT_WEIGHT': 0.001, 'TRAIN_PATH': './part_A/train_data', 'TEST_PATH': './part_A/test_data', 'CROP_SIZE': 256, 'COLOR_JITTER': True, 'SEED': 42, 'USE_AMP': True, 'NUM_WORKERS': 4}
+2026-02-28 01:37:03,258 - INFO - Device: cuda (NVIDIA GeForce RTX 5070 Ti Laptop GPU)
+2026-02-28 01:37:03,258 - INFO - Loading datasets...
+2026-02-28 01:37:03,259 - INFO - Train samples: 300, Val samples: 182
+2026-02-28 01:37:03,260 - INFO - Creating model: improved
+2026-02-28 01:37:04,333 - INFO - Model parameters: 16,297,477
+2026-02-28 01:37:04,334 - INFO - Loss function: combined
+2026-02-28 01:37:04,335 - INFO - Optimizer: adam, LR: 1e-05
+2026-02-28 01:37:04,335 - INFO - Scheduler: cosine
+2026-02-28 01:37:04,335 - INFO - Starting training...
+2026-02-28 01:37:25,528 - INFO - Epoch [1/200] Step [20/300] Loss: 170779.7812 AvgLoss: 164169.1523
+2026-02-28 01:37:25,731 - INFO - Epoch [1/200] Step [40/300] Loss: 270624.2500 AvgLoss: 166338.2652
+2026-02-28 01:37:29,511 - INFO - Epoch [1/200] Step [60/300] Loss: 175452.0156 AvgLoss: 166916.2605
+2026-02-28 01:37:29,763 - INFO - Epoch [1/200] Step [80/300] Loss: 120354.2266 AvgLoss: 173781.9410
+2026-02-28 01:37:29,983 - INFO - Epoch [1/200] Step [100/300] Loss: 8924.4053 AvgLoss: 148502.1742
+2026-02-28 01:37:30,197 - INFO - Epoch [1/200] Step [120/300] Loss: 8812.3262 AvgLoss: 126227.9953
+2026-02-28 01:37:30,422 - INFO - Epoch [1/200] Step [140/300] Loss: 3966.1174 AvgLoss: 109018.6762
+2026-02-28 01:37:30,639 - INFO - Epoch [1/200] Step [160/300] Loss: 1844.8214 AvgLoss: 95798.9976
+2026-02-28 01:37:34,798 - INFO - Epoch [1/200] Step [180/300] Loss: 2914.9473 AvgLoss: 85338.7534
+2026-02-28 01:37:35,018 - INFO - Epoch [1/200] Step [200/300] Loss: 454.7064 AvgLoss: 76898.8997
+2026-02-28 01:37:35,234 - INFO - Epoch [1/200] Step [220/300] Loss: 236.6545 AvgLoss: 69958.1348
+2026-02-28 01:37:35,449 - INFO - Epoch [1/200] Step [240/300] Loss: 274.0765 AvgLoss: 64156.3544
+2026-02-28 01:37:43,527 - INFO - Epoch [1/200] Step [260/300] Loss: 166.2185 AvgLoss: 59236.6772
+2026-02-28 01:37:43,817 - INFO - Epoch [1/200] Step [280/300] Loss: 79.9113 AvgLoss: 55017.6759
+2026-02-28 01:37:47,717 - INFO - Epoch [1/200] Step [300/300] Loss: 53.7254 AvgLoss: 51356.8015
+2026-02-28 01:38:15,861 - INFO - Epoch [1/200] Train Loss: 51356.8015 | Val MAE: 494.55 | Val MSE: 665.54 | LR: 1.00e-05
+2026-02-28 01:38:16,011 - INFO - New best model saved! MAE: 494.55
+2026-02-28 01:38:16,011 - INFO - Epoch time: 71.7s
+2026-02-28 01:38:23,190 - INFO - Epoch [2/200] Step [20/300] Loss: 56.2097 AvgLoss: 59.2489
+2026-02-28 01:38:26,841 - INFO - Epoch [2/200] Step [40/300] Loss: 26.6322 AvgLoss: 68.7588

@@ -1,0 +1,19 @@
+Crowd Density Estimation & Multimodal XAI Agent
+Copyright 2026 Berkay Inci
+
+This product includes software developed by Berkay Inci.
+Licensed under the Apache License, Version 2.0 (see LICENSE).
+
+--------------------------------------------------------------------------
+Third-party work this project builds upon (not redistributed here):
+
+- CSRNet architecture — Li, Zhang, Chen, "CSRNet: Dilated Convolutional
+  Neural Networks for Understanding the Highly Congested Scenes", CVPR 2018.
+- CBAM attention module — Woo, Park, Lee, Kweon, "CBAM: Convolutional Block
+  Attention Module", ECCV 2018.
+- ShanghaiTech crowd counting dataset — Zhang et al., "Single-Image Crowd
+  Counting via Multi-Column Convolutional Neural Network", CVPR 2016.
+  The dataset is NOT included in this repository and remains under the terms
+  set by its authors.
+- VGG16/VGG19 ImageNet-pretrained weights are downloaded at runtime from
+  torchvision and are subject to their own terms.

@@ -1,0 +1,6 @@
+2025-12-29 02:41:21,838 - Device: cuda
+2025-12-29 02:41:21,838 - Creating model...
+2025-12-29 02:41:22,790 - Loading checkpoint: ./checkpoints/best_model.pth
+2025-12-29 02:41:22,862 - Loaded checkpoint from epoch 120, best MAE: 82.34
+2025-12-29 02:41:22,862 - Loading datasets...
+2025-12-29 02:41:22,864 - Using PURE MSE loss

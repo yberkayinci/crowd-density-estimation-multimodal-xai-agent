@@ -1,0 +1,13 @@
+2026-02-10 16:32:46,075 - INFO - Experiment: csrnet_improved_20260210_163246
+2026-02-10 16:32:46,076 - INFO - Config: {'MODEL_TYPE': 'improved', 'USE_ATTENTION': True, 'USE_BN': False, 'DROPOUT_RATE': 0.0, 'EPOCHS': 200, 'BATCH_SIZE': 1, 'LR': 1e-05, 'OPTIMIZER': 'adam', 'SCHEDULER': 'cosine', 'LOSS_TYPE': 'combined', 'SSIM_WEIGHT': 0.01, 'COUNT_WEIGHT': 0.001, 'TRAIN_PATH': './part_A/train_data', 'TEST_PATH': './part_A/test_data', 'CROP_SIZE': 256, 'COLOR_JITTER': True, 'SEED': 42, 'USE_AMP': True, 'NUM_WORKERS': 4}
+2026-02-10 16:32:46,076 - WARNING - Device: cpu (WARNING: training will be very slow)
+2026-02-10 16:32:46,080 - INFO - Loading datasets...
+2026-02-10 16:32:46,081 - INFO - Train samples: 300, Val samples: 182
+2026-02-10 16:32:46,081 - INFO - Creating model: improved
+2026-02-10 16:32:47,051 - INFO - Model parameters: 16,297,477
+2026-02-10 16:32:47,052 - INFO - Loss function: combined
+2026-02-10 16:32:47,052 - INFO - Optimizer: adam, LR: 1e-05
+2026-02-10 16:32:47,052 - INFO - Scheduler: cosine
+2026-02-10 16:32:47,052 - INFO - Starting training...
+2026-02-10 16:32:57,808 - INFO - Epoch [1/200] Step [20/300] Loss: 24747.3672 AvgLoss: 78852.4799
+2026-02-10 16:33:01,691 - INFO - Epoch [1/200] Step [40/300] Loss: 26351.4453 AvgLoss: 46842.6664

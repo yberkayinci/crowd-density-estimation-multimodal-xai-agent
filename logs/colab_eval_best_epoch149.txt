@@ -1,0 +1,9 @@
+Evaluation of checkpoints/best_model.pth on ShanghaiTech Part A test set (182 images)
+Run on Google Colab, Tesla T4, PyTorch 2.10.0+cu128
+Source: colab_train.ipynb, cell 15
+======================================================================
+
+Loaded: epoch=149, best_mae=61.14497991708609
+
+Single-pass -> MAE: 61.14  |  RMSE: 90.91
+TTA -> MAE: 64.00  |  RMSE: 100.45

@@ -1,0 +1,36 @@
+# ── Python ──────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# ── Model weights ───────────────────────────────────────
+# Checkpoints are ~195 MB each (over GitHub's 100 MB file limit).
+# Download the released weights instead — see README.
+*.pth
+*.pt
+*.ckpt
+checkpoints/
+
+# ── Dataset ─────────────────────────────────────────────
+# ShanghaiTech Part A is redistributed by its authors, not here.
+# See README > Dataset for the download + preprocessing steps.
+part_A/
+part_B/
+
+# ── Generated artifacts ─────────────────────────────────
+outputs/
+!assets/
+
+# ── Local / personal ────────────────────────────────────
+other_images/
+documentation/
+desktop.ini
+*.tmp
+
+# ── OS ──────────────────────────────────────────────────
+Thumbs.db
+.DS_Store
